@@ -1,0 +1,168 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'update_delete.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_Dialog_update_or_delete_question(object):
+    def setupUi(self, Dialog_update_or_delete_question):
+        Dialog_update_or_delete_question.setObjectName(_fromUtf8("Dialog_update_or_delete_question"))
+        Dialog_update_or_delete_question.resize(844, 546)
+        self.cmb_select_process = QtGui.QComboBox(Dialog_update_or_delete_question)
+        self.cmb_select_process.setGeometry(QtCore.QRect(40, 304, 281, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.cmb_select_process.setFont(font)
+        self.cmb_select_process.setObjectName(_fromUtf8("cmb_select_process"))
+        self.label_student_year = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.label_student_year.setGeometry(QtCore.QRect(40, 156, 141, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_student_year.setFont(font)
+        self.label_student_year.setObjectName(_fromUtf8("label_student_year"))
+        self.comboBox_semester = QtGui.QComboBox(Dialog_update_or_delete_question)
+        self.comboBox_semester.setGeometry(QtCore.QRect(210, 210, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_semester.setFont(font)
+        self.comboBox_semester.setObjectName(_fromUtf8("comboBox_semester"))
+        self.comboBox_year = QtGui.QComboBox(Dialog_update_or_delete_question)
+        self.comboBox_year.setGeometry(QtCore.QRect(210, 91, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_year.setFont(font)
+        self.comboBox_year.setObjectName(_fromUtf8("comboBox_year"))
+        self.label_semester = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.label_semester.setGeometry(QtCore.QRect(40, 215, 91, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_semester.setFont(font)
+        self.label_semester.setObjectName(_fromUtf8("label_semester"))
+        self.label_year = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.label_year.setGeometry(QtCore.QRect(40, 96, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_year.setFont(font)
+        self.label_year.setObjectName(_fromUtf8("label_year"))
+        self.comboBox_student_year = QtGui.QComboBox(Dialog_update_or_delete_question)
+        self.comboBox_student_year.setGeometry(QtCore.QRect(210, 150, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_student_year.setFont(font)
+        self.comboBox_student_year.setObjectName(_fromUtf8("comboBox_student_year"))
+        self.lbl_select_subject = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.lbl_select_subject.setGeometry(QtCore.QRect(40, 270, 151, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.lbl_select_subject.setFont(font)
+        self.lbl_select_subject.setObjectName(_fromUtf8("lbl_select_subject"))
+        self.tableWidget = QtGui.QTableWidget(Dialog_update_or_delete_question)
+        self.tableWidget.setGeometry(QtCore.QRect(350, 90, 451, 244))
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.tableWidget.sizePolicy().hasHeightForWidth())
+        self.tableWidget.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.tableWidget.setFont(font)
+        self.tableWidget.setRowCount(60)
+        self.tableWidget.setColumnCount(1)
+        self.tableWidget.setObjectName(_fromUtf8("tableWidget"))
+        self.label = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.label.setGeometry(QtCore.QRect(270, 30, 341, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.label_question = QtGui.QLabel(Dialog_update_or_delete_question)
+        self.label_question.setGeometry(QtCore.QRect(40, 370, 101, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_question.setFont(font)
+        self.label_question.setObjectName(_fromUtf8("label_question"))
+        self.textEdit = QtGui.QTextEdit(Dialog_update_or_delete_question)
+        self.textEdit.setGeometry(QtCore.QRect(40, 403, 631, 71))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.textEdit.setFont(font)
+        self.textEdit.setObjectName(_fromUtf8("textEdit"))
+        self.pushButton_update = QtGui.QPushButton(Dialog_update_or_delete_question)
+        self.pushButton_update.setGeometry(QtCore.QRect(40, 490, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(10)
+        self.pushButton_update.setFont(font)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8("Qt_interface/SE_syllabus/update.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_update.setIcon(icon)
+        self.pushButton_update.setIconSize(QtCore.QSize(20, 20))
+        self.pushButton_update.setObjectName(_fromUtf8("pushButton_update"))
+        self.pushButton_delete = QtGui.QPushButton(Dialog_update_or_delete_question)
+        self.pushButton_delete.setGeometry(QtCore.QRect(180, 490, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(10)
+        self.pushButton_delete.setFont(font)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8("Qt_interface/SE_syllabus/Delete_Icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_delete.setIcon(icon1)
+        self.pushButton_delete.setIconSize(QtCore.QSize(22, 21))
+        self.pushButton_delete.setObjectName(_fromUtf8("pushButton_delete"))
+
+        self.retranslateUi(Dialog_update_or_delete_question)
+        QtCore.QMetaObject.connectSlotsByName(Dialog_update_or_delete_question)
+
+    def retranslateUi(self, Dialog_update_or_delete_question):
+        Dialog_update_or_delete_question.setWindowTitle(_translate("Dialog_update_or_delete_question", "Dialog", None))
+        self.label_student_year.setText(_translate("Dialog_update_or_delete_question", "STUDENT YEAR", None))
+        self.label_semester.setText(_translate("Dialog_update_or_delete_question", "SEMESTER", None))
+        self.label_year.setText(_translate("Dialog_update_or_delete_question", "YEAR", None))
+        self.lbl_select_subject.setText(_translate("Dialog_update_or_delete_question", "SELECT  SUBJECT", None))
+        self.label.setText(_translate("Dialog_update_or_delete_question", "UPDATE OR DELETE QUESTION", None))
+        self.label_question.setText(_translate("Dialog_update_or_delete_question", "QUESTION", None))
+        self.pushButton_update.setText(_translate("Dialog_update_or_delete_question", "UPDATE", None))
+        self.pushButton_delete.setText(_translate("Dialog_update_or_delete_question", "DELETE", None))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Dialog_update_or_delete_question = QtGui.QDialog()
+    ui = Ui_Dialog_update_or_delete_question()
+    ui.setupUi(Dialog_update_or_delete_question)
+    Dialog_update_or_delete_question.show()
+    sys.exit(app.exec_())
+

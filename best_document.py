@@ -1,0 +1,167 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'best_document.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_Dialog_best_document(object):
+    def setupUi(self, Dialog_best_document):
+        Dialog_best_document.setObjectName(_fromUtf8("Dialog_best_document"))
+        Dialog_best_document.resize(767, 620)
+        self.tableWidget = QtGui.QTableWidget(Dialog_best_document)
+        self.tableWidget.setGeometry(QtCore.QRect(50, 420, 671, 211))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(11)
+        self.tableWidget.setFont(font)
+        self.tableWidget.setRowCount(40)
+        self.tableWidget.setColumnCount(8)
+        self.tableWidget.setObjectName(_fromUtf8("tableWidget"))
+        item = QtGui.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(0, item)
+        item = QtGui.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(1, item)
+        item = QtGui.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(2, item)
+        item = QtGui.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(3, item)
+        self.label = QtGui.QLabel(Dialog_best_document)
+        self.label.setGeometry(QtCore.QRect(320, 20, 201, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.cmb_select_topic = QtGui.QComboBox(Dialog_best_document)
+        self.cmb_select_topic.setGeometry(QtCore.QRect(440, 320, 281, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.cmb_select_topic.setFont(font)
+        self.cmb_select_topic.setObjectName(_fromUtf8("cmb_select_topic"))
+        self.lbl_question = QtGui.QLabel(Dialog_best_document)
+        self.lbl_question.setGeometry(QtCore.QRect(50, 380, 151, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setWeight(50)
+        self.lbl_question.setFont(font)
+        self.lbl_question.setObjectName(_fromUtf8("lbl_question"))
+        self.lbl_select_question = QtGui.QLabel(Dialog_best_document)
+        self.lbl_select_question.setGeometry(QtCore.QRect(440, 275, 171, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setWeight(50)
+        self.lbl_select_question.setFont(font)
+        self.lbl_select_question.setObjectName(_fromUtf8("lbl_select_question"))
+        self.label_student_year = QtGui.QLabel(Dialog_best_document)
+        self.label_student_year.setGeometry(QtCore.QRect(50, 166, 141, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_student_year.setFont(font)
+        self.label_student_year.setObjectName(_fromUtf8("label_student_year"))
+        self.comboBox_student_year = QtGui.QComboBox(Dialog_best_document)
+        self.comboBox_student_year.setGeometry(QtCore.QRect(220, 160, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_student_year.setFont(font)
+        self.comboBox_student_year.setObjectName(_fromUtf8("comboBox_student_year"))
+        self.comboBox_semester = QtGui.QComboBox(Dialog_best_document)
+        self.comboBox_semester.setGeometry(QtCore.QRect(220, 220, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_semester.setFont(font)
+        self.comboBox_semester.setObjectName(_fromUtf8("comboBox_semester"))
+        self.lbl_select_subject = QtGui.QLabel(Dialog_best_document)
+        self.lbl_select_subject.setGeometry(QtCore.QRect(50, 280, 151, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.lbl_select_subject.setFont(font)
+        self.lbl_select_subject.setObjectName(_fromUtf8("lbl_select_subject"))
+        self.cmb_select_process = QtGui.QComboBox(Dialog_best_document)
+        self.cmb_select_process.setGeometry(QtCore.QRect(50, 320, 281, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.cmb_select_process.setFont(font)
+        self.cmb_select_process.setObjectName(_fromUtf8("cmb_select_process"))
+        self.label_semester = QtGui.QLabel(Dialog_best_document)
+        self.label_semester.setGeometry(QtCore.QRect(50, 225, 91, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_semester.setFont(font)
+        self.label_semester.setObjectName(_fromUtf8("label_semester"))
+        self.label_year = QtGui.QLabel(Dialog_best_document)
+        self.label_year.setGeometry(QtCore.QRect(50, 106, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.label_year.setFont(font)
+        self.label_year.setObjectName(_fromUtf8("label_year"))
+        self.comboBox_year = QtGui.QComboBox(Dialog_best_document)
+        self.comboBox_year.setGeometry(QtCore.QRect(220, 101, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Times New Roman"))
+        font.setPointSize(12)
+        self.comboBox_year.setFont(font)
+        self.comboBox_year.setObjectName(_fromUtf8("comboBox_year"))
+
+        self.retranslateUi(Dialog_best_document)
+        QtCore.QMetaObject.connectSlotsByName(Dialog_best_document)
+
+    def retranslateUi(self, Dialog_best_document):
+        Dialog_best_document.setWindowTitle(_translate("Dialog_best_document", "Dialog", None))
+        item = self.tableWidget.horizontalHeaderItem(0)
+        item.setText(_translate("Dialog_best_document", "TOPIC", None))
+        item = self.tableWidget.horizontalHeaderItem(1)
+        item.setText(_translate("Dialog_best_document", "TF-IDF", None))
+        item = self.tableWidget.horizontalHeaderItem(2)
+        item.setText(_translate("Dialog_best_document", "TF-IDF LOG", None))
+        item = self.tableWidget.horizontalHeaderItem(3)
+        item.setText(_translate("Dialog_best_document", "COSINE SIMILARITY", None))
+        self.label.setText(_translate("Dialog_best_document", "BEST DOCUMENT", None))
+        self.lbl_question.setText(_translate("Dialog_best_document", "QUESTION TABLE", None))
+        self.lbl_select_question.setText(_translate("Dialog_best_document", "SELECT QUESTION", None))
+        self.label_student_year.setText(_translate("Dialog_best_document", "STUDENT YEAR", None))
+        self.lbl_select_subject.setText(_translate("Dialog_best_document", "SELECT  SUBJECT", None))
+        self.label_semester.setText(_translate("Dialog_best_document", "SEMESTER", None))
+        self.label_year.setText(_translate("Dialog_best_document", "YEAR", None))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Dialog_best_document = QtGui.QDialog()
+    ui = Ui_Dialog_best_document()
+    ui.setupUi(Dialog_best_document)
+    Dialog_best_document.show()
+    sys.exit(app.exec_())
+
