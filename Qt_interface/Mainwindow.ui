@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1078</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>35</width>
+    <height>25</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1078</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuLogin">
+    <property name="title">
+     <string>LOGIN</string>
+    </property>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuADD_SUBJECT">
+    <property name="title">
+     <string>  ADD SUBJECT</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuADD_CONTENT">
+    <property name="title">
+     <string>ADD CONTENT</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPROCESS">
+    <property name="title">
+     <string>PROCESS</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuINSERT_QUESTION">
+    <property name="title">
+     <string>INSERT QUESTION</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuUPDATE_OR_DELETE_QUESTION">
+    <property name="title">
+     <string>UPDATE OR DELETE QUESTION</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuBEST_DOCUMENT">
+    <property name="title">
+     <string>BEST DOCUMENT FOR SINGLE QUESTION</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuBEST_DOCUMENT_FOR_QUESTION_PAPER">
+    <property name="title">
+     <string>BEST DOCUMENT FOR QUESTION PAPER</string>
+    </property>
+   </widget>
+   <addaction name="menuLogin"/>
+   <addaction name="menuADD_SUBJECT"/>
+   <addaction name="menuADD_CONTENT"/>
+   <addaction name="menuPROCESS"/>
+   <addaction name="menuINSERT_QUESTION"/>
+   <addaction name="menuUPDATE_OR_DELETE_QUESTION"/>
+   <addaction name="menuBEST_DOCUMENT"/>
+   <addaction name="menuBEST_DOCUMENT_FOR_QUESTION_PAPER"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionLogin"/>
+   <addaction name="separator"/>
+   <addaction name="actionAddsubject"/>
+   <addaction name="actionAddcontent"/>
+   <addaction name="actionProcess"/>
+   <addaction name="actionInsertquestion"/>
+   <addaction name="actionUpdateordeletequestion"/>
+   <addaction name="actionBestdocument"/>
+   <addaction name="actionBsetdocumntsfod_questionpaper"/>
+  </widget>
+  <action name="actionLogin">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/Login.png</normaloff>SE_syllabus/Login.png</iconset>
+   </property>
+   <property name="text">
+    <string>login</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionAddsubject">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/books_add.png</normaloff>SE_syllabus/books_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>addsubject</string>
+   </property>
+  </action>
+  <action name="actionAddcontent">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/rodentia-icons_document-add.png</normaloff>SE_syllabus/rodentia-icons_document-add.png</iconset>
+   </property>
+   <property name="text">
+    <string>addcontent</string>
+   </property>
+  </action>
+  <action name="actionProcess">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/14d42564.png</normaloff>SE_syllabus/14d42564.png</iconset>
+   </property>
+   <property name="text">
+    <string>process</string>
+   </property>
+  </action>
+  <action name="actionInsertquestion">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/003050-document-task-add.png</normaloff>SE_syllabus/003050-document-task-add.png</iconset>
+   </property>
+   <property name="text">
+    <string>insertquestion</string>
+   </property>
+  </action>
+  <action name="actionUpdateordeletequestion">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/magnifying-glass-97588_640.png</normaloff>SE_syllabus/magnifying-glass-97588_640.png</iconset>
+   </property>
+   <property name="text">
+    <string>updateordeletequestion</string>
+   </property>
+  </action>
+  <action name="actionBestdocument">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/report.png</normaloff>SE_syllabus/report.png</iconset>
+   </property>
+   <property name="text">
+    <string>bestdocument</string>
+   </property>
+  </action>
+  <action name="actionBsetdocumntsfod_questionpaper">
+   <property name="icon">
+    <iconset>
+     <normaloff>SE_syllabus/1600 (1).png</normaloff>SE_syllabus/1600 (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>bsetdocumntsfod questionpaper</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
